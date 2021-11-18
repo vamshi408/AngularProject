@@ -6,11 +6,14 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './User/user/user.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
+import { EmployeeComponent } from './Employee/employee.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    EmployeeComponent
   ],
   imports: [
     BrowserModule,
