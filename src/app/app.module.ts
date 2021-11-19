@@ -7,13 +7,15 @@ import { UserComponent } from './User/user/user.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { EmployeeComponent } from './Employee/employee.component';
+import { TestComponent } from './test/test.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
